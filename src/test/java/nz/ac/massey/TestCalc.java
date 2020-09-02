@@ -10,6 +10,8 @@ public class TestCalc{
 	public void testAssert(){
 		Calc c = new Calc();
 		assertEquals( c.add(1,1), 2 );
+
+		assertEquals( c.subtract(1,1), 0);
 	}
 
 }
