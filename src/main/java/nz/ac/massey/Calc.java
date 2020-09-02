@@ -7,6 +7,6 @@ class Calc{
 	}
 
 	public static int subtract(int x, int z){
-		return (x + z);
+		return (x - z);
 	}
 }
